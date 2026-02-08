@@ -54,13 +54,13 @@ transform = A.Compose(
 #   PARAMÈTRES
 # ============================
 
-DATASET_ROOT = "C:\\Users\\DELL\\Documents\\S9\\Projet_Pic\\PIC_2_test_tiled_512_v2"
-OUTPUT_ROOT = "dead-bird-detection\\augmented_dataset"
+DATASET_ROOT = "PIC_2_test_tiled_512_v2"
+OUTPUT_ROOT = "augmented_dataset"
 
 N_AUG_PER_IMAGE = 4
 EXPECTED_W, EXPECTED_H = 512, 512
 
-splits = ["test","valid"]  
+splits = ["test","valid","train"]  
 
 # ============================
 #   LECTURE LABELS YOLO

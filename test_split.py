@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 TILE_SIZE = 512
 OVERLAP = 100
-DATASET_PATH = "dead-bird-detection\exports"
+DATASET_PATH = "exports"
 OUTPUT_PATH = "PIC_2_test_tiled_512_v2"
 
 #EMPTY_LABEL = "0 0 0 0 0"  # class_id = 0 pour les tuiles sans objets
