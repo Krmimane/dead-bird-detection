@@ -1,9 +1,8 @@
-# 🐦 Dead Bird Detection – YOLOv11
+# Dead Bird Detection – YOLOv11
 
 Ce projet vise la **détection d’oiseaux morts sur images haute résolution** à l’aide de modèles **YOLOv11**.  
-Il couvre tout le pipeline : **préparation des données, augmentation, découpage en tuiles 512×512, entraînement et évaluation**.
+Il couvre tout le pipeline : **préparation des données, découpage en tuiles 512×512, augmentation, entraînement et évaluation**.
 
----
 ---
 
 ## ⚙️ Description des fichiers
@@ -27,9 +26,7 @@ Notebook de **préparation des données**.
 Il permet :
 - d’analyser le dataset,  
 - nettoyer et équilibrer les labels,  
-- vérifier les annotations,  
-- préparer les splits `train / valid / test`.
-
+- vérifier les annotations.
 ---
 
 ### 🔹 `entrainement&eval.ipynb`  
@@ -77,5 +74,3 @@ Notebook expérimental ancien utilisé pour valider certaines étapes du pipelin
 3. **Split en tuiles 512×512** → `test_split.py`  
 4. **Entraînement final & évaluation** → `entrainement&eval.ipynb`  
 5. **Tests de modèles** → Notebooks YOLOv11 A / B / C  
-
----
